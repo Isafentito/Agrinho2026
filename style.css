@@ -1,4 +1,7 @@
 :root {
-    background-color:#f51f12 ;
-    text: #000000
+    --bg-fundo: #ad140c;
+    --bg-card: #ffe7d9;
+    --text: #000000;
+    --cor-principal: #a71313;
+    --cor-destaque: #ffe7d9;
 }
