@@ -1,7 +1,7 @@
 body {
-    --bg-fundo: #ad140c;
+ background-color: #ad140c;
     --bg-card: #ffe7d9;
-    --text: #000000;
+    --texto: #000000;
     --cor-principal: #a71313;
     --cor-destaque: #ffe7d9;
 }
