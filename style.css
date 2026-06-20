@@ -1,5 +1,5 @@
 body {
- background-color: #c0241c;
+ background-color: #dc3128;
  color: aliceblue;
 font-family: "Gravitas One", serif;
 font-weight: 400;
@@ -8,8 +8,8 @@ font-style: "https://fonts.googleapis.com";
 
 .container {
     max-width: 450px;
-    margim: 50px auto;
-    text-aling: center;
+    margin: 50px auto;
+    text-align: center;
 }
 
 button{
@@ -18,10 +18,10 @@ button{
     border: #d7ae8a;
     border-radius: 5px;
     background-color: #d7ae8a;
-    color: #c0241c;
+    color: #dc3128;
 }
 
 body.dark-mode button {
-    background-color: #c0241c;
+    background-color: #dc3128;
     color: #d7ae8a;
 }
