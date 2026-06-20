@@ -1,9 +1,27 @@
 body {
- background-color: #ad140c;
+ background-color: #c0241c;
  color: aliceblue;
-.gravitas-one-regular {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Gravitas One", serif;
+font-weight: 400;
+font-style: "https://fonts.googleapis.com";
 }
+
+.container {
+    max-width: 450px;
+    margim: 50px auto;
+    text-aling: center;
+}
+
+button{
+    padding: 19px 21px;
+    font-size: 19px;
+    border: #d7ae8a;
+    border-radius: 5px;
+    background-color: #d7ae8a;
+    color: #c0241c;
+}
+
+body.dark-mode button {
+    background-color: #c0241c;
+    color: #d7ae8a;
 }
