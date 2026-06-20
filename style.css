@@ -1,7 +1,5 @@
 body {
- background-color: #dc3128;}
- body{
-background-color: #d7ae8a;
+ background-color: #e8473f;
  color: rgb(244, 196, 196);
 font-family: "Gravitas One", serif;
 font-weight: 400;
@@ -20,11 +18,11 @@ button{
     font-size: 19px;
     border: #d7ae8a;
     border-radius: 5px;
-    background-color: #d7ae8a;
-    color: #dc3128;
+    background-color: #e12f2f;
+    color: #e8514a;
 }
 
 body.dark-mode button {
-    background-color: #dc3128;
+    background-color: #260d0b;
     color: #d7ae8a;
 }
