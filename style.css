@@ -1,14 +1,12 @@
 body {
  background-color: #dc3128;
- color: aliceblue;
+ background:(244, 120, 169);
+ color: rgb(244, 196, 196);
 font-family: "Gravitas One", serif;
 font-weight: 400;
 font-style: "https://fonts.googleapis.com";
 }
- body{
-    bleed: #0b0100
-
- }
+ 
 
 .container {
     max-width: 450px;
