@@ -5,6 +5,10 @@ font-family: "Gravitas One", serif;
 font-weight: 400;
 font-style: "https://fonts.googleapis.com";
 }
+ body{
+    bleed: #0b0100
+
+ }
 
 .container {
     max-width: 450px;
