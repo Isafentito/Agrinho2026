@@ -1,29 +1,81 @@
+@import url('');
 body {
- background-color: #e8473f;
- color: rgb(216, 64, 64);
-font-family: "Gravitas One", serif;
-font-weight: 400;
-font-style: "https://fonts.googleapis.com";
+    background-color: #d7ae8a; 
+    color: #dc3128;            /* Texto Vermelho */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
 }
- 
+
+h1, h2 {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+}
+
+.topo-site {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
 
 .container {
-    max-width: 450px;
-    margin: 50px auto;
+    max-width: 600px;
+    margin: 20px auto;
     text-align: center;
+    padding: 0 20px;
 }
 
-button{
-    padding: 19px 21px;
-    font-size: 19px;
-    border: #e12f2f;
+/* Botões de Informação */
+.botoes-info {
+    margin: 30px 0;
+}
+
+.btn-info, .btn-modo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 12px 20px;
+    font-size: 15px;
+    border: 2px solid #dc3128;
     border-radius: 5px;
-    background-color: #e12f2f;
-    color: #e8514a;
+    background-color: #d7ae8a;
+    color: #dc3128;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s;
 }
 
-body.dark-mode button {
-    background-color: #260d0b;
-    color: #e12f2f;
-;
+.btn-info:hover, .btn-modo:hover {
+    background-color: #dc3128;
+    color: #d7ae8a;
+}
+
+/* Caixa onde a informação aparece */
+.caixa-texto {
+    border: 2px dashed #dc3128;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- MODO ESCURO --- */
+body.dark-mode {
+    background-color: #dc3128; /* Fundo Vermelho */
+    color: #d7ae8a;            /* Texto Bege */
+}
+
+body.dark-mode .btn-info, body.dark-mode .btn-modo {
+    border-color: #d7ae8a;
+    background-color: #dc3128;
+    color: #d7ae8a;
+}
+
+body.dark-mode .btn-info:hover, body.dark-mode .btn-modo:hover {
+    background-color: #d7ae8a;
+    color: #dc3128;
+}
+
+body.dark-mode .caixa-texto {
+    border-color: #d7ae8a;
 }
