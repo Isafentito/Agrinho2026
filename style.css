@@ -1,5 +1,4 @@
-
-@import url('https://fonts.google.com/share?selection.family=Gravitas+One');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
     background-color: #d7ae8a;
@@ -9,6 +8,7 @@ body {
     padding: 0;
     transition: background-color 0.3s, color 0.3s;
 }
+
 h1, h2 {
     font-family: "Gravitas One", serif;
     font-weight: 400;
@@ -64,7 +64,7 @@ h1, h2 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 body.dark-mode {
-    background-color: #dc3128;
+    background-color: #180201;
     color: #d7ae8a; 
 }
 
