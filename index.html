@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site Informacional</title>
-    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,17 +15,18 @@
     </div>
 
     <div class="container">
-        <h1>Diferentes locais de produções agricolas</h1>
+        <h1>Painel de Informações</h1>
+        <p>Clique nos botões abaixo para ler os conteúdos:</p>
         
         <div class="botoes-info">
-            <button class="btn-info" onclick="mudarInfo(1)">O que é?</button>
+            <button class="btn-info" onclick="mudarInfo(1)">o que é?</button>
             <button class="btn-info" onclick="mudarInfo(2)">Quais são os diferentes meios?</button>
             <button class="btn-info" onclick="mudarInfo(3)">Como fazer?</button>
         </div>
 
         <div class="caixa-texto">
             <h2 id="titulo-info">Selecione uma opção</h2>
-            <p id="paragrafo-info">Clique em um dos botões.</p>
+            <p id="paragrafo-info">Clique em um dos botões acima para carregar o texto informativo.</p>
         </div>
     </div>
 
