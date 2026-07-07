@@ -67,7 +67,7 @@ body.dark-mode .btn-info, body.dark-mode .btn-modo {
 
 body.dark-mode .btn-info:hover, body.dark-mode .btn-modo:hover {
     background-color: #d7ae8a;
-    color: #dc3128;
+    color: hsl(3, 71%, 27%);
 }
 
 body.dark-mode .caixa-texto {
