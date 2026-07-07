@@ -23,14 +23,14 @@ function mudarInfo(opcao) {
     } 
     else if (opcao === 3) {
         titulo.innerText = "Como fazer?";
-        paragrafo.innerText = "★Como fazer Cultivo em Substrato:" "Consiste em escolher recipientes como vasos, baldes ou caixotes de feira e preenchê-los com uma mistura rica de terra preta, adubo orgânico (compostagem) e fibra de coco. Dessa forma, as raízes crescem protegidas e bem alimentadas, sem nunca entrar em contato com o solo infértil do chão."
+        paragrafo.innerText = ""Como fazer Cultivo em Substrato:" "Consiste em escolher recipientes como vasos, baldes ou caixotes de feira e preenchê-los com uma mistura rica de terra preta, adubo orgânico (compostagem) e fibra de coco. Dessa forma, as raízes crescem protegidas e bem alimentadas, sem nunca entrar em contato com o solo infértil do chão."
 
-"★Como fazer Hidroponia Caseira:" "Monta-se uma estrutura utilizando tubos de PVC nivelados, por onde circula água misturada com uma solução de nutrientes minerais. As plantas são encaixadas em furos ao longo do tubo, mantendo suas raízes suspensas diretamente nessa água enriquecida, dispensando totalmente o uso de terra."
+"Como fazer Hidroponia Caseira:" "Monta-se uma estrutura utilizando tubos de PVC nivelados, por onde circula água misturada com uma solução de nutrientes minerais. As plantas são encaixadas em furos ao longo do tubo, mantendo suas raízes suspensas diretamente nessa água enriquecida, dispensando totalmente o uso de terra."
 
-"★Como fazer Agricultura Vertical:" "Aproveita-se o espaço das paredes, muros ou paletes empilhados para fixar suportes de plantio, como garrafas PET cortadas e interligadas por cordas. As plantas são cultivadas em camadas, uma em cima da outra, maximizando a produção em locais cimentados ou quintais muito pequenos."
+"Como fazer Agricultura Vertical:" "Aproveita-se o espaço das paredes, muros ou paletes empilhados para fixar suportes de plantio, como garrafas PET cortadas e interligadas por cordas. As plantas são cultivadas em camadas, uma em cima da outra, maximizando a produção em locais cimentados ou quintais muito pequenos."
 
-"★Como fazer Aquaponia:" "Conecta-se um tanque de criação de peixes a um sistema de tubos com plantas (hidroponia). A água com os resíduos dos peixes é bombeada até as plantas, que absorvem esses dejetos como adubo natural potente. Ao limparem a água, ela retorna filtrada e oxigenada para o tanque dos peixes."
+"Como fazer Aquaponia:" "Conecta-se um tanque de criação de peixes a um sistema de tubos com plantas (hidroponia). A água com os resíduos dos peixes é bombeada até as plantas, que absorvem esses dejetos como adubo natural potente. Ao limparem a água, ela retorna filtrada e oxigenada para o tanque dos peixes."
 
-"★Como fazer Agrofloresta (Sintropia):" "Planta-se no mesmo terreno uma combinação estratégica de árvores grandes, frutíferas, arbustos e hortaliças. A matéria orgânica gerada pelas podas e pelas folhas que caem é depositada sobre o chão, criando uma camada protetora que recupera a vida, a umidade e a fertilidade do solo degradado com o tempo.".";
+"Como fazer Agrofloresta (Sintropia):" "Planta-se no mesmo terreno uma combinação estratégica de árvores grandes, frutíferas, arbustos e hortaliças. A matéria orgânica gerada pelas podas e pelas folhas que caem é depositada sobre o chão, criando uma camada protetora que recupera a vida, a umidade e a fertilidade do solo degradado com o tempo.".";
     }
 }
