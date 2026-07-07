@@ -8,15 +8,15 @@ function mudarInfo(opcao) {
     const paragrafo = document.getElementById('paragrafo-info');
 
     if (opcao === 1) {
-        titulo.innerText = "Título da Informação 1";
+        titulo.innerText = "O que é?";
         paragrafo.innerText = "Aqui você digita o texto explicativo sobre o primeiro assunto do seu site. Pode ser um parágrafo longo ou curto.";
     } 
     else if (opcao === 2) {
-        titulo.innerText = "Título da Informação 2";
+        titulo.innerText = "Quais são os diferentes meios?";
         paragrafo.innerText = "Este é o espaço da segunda informação. Basta apagar este texto dentro das aspas e escrever o que você quiser.";
     } 
     else if (opcao === 3) {
-        titulo.innerText = "Título da Informação 3";
+        titulo.innerText = "Como fazer?";
         paragrafo.innerText = "Aqui fica o conteúdo do terceiro botão. Você tem total controle sobre o que colocar aqui pelo JavaScript.";
     }
 }
