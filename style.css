@@ -1,4 +1,6 @@
-@import url('https://fonts.google.com/specimen/Gravitas+One');
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@400;600&display=swap');
+
 body {
     background-color: #d7ae8a;
     color: #dc3128;
@@ -7,10 +9,10 @@ body {
     padding: 0;
     transition: background-color 0.3s, color 0.3s;
 }
-.gravitas-one-regular {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
+h1, h2 {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .topo-site {
