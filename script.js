@@ -15,11 +15,7 @@ function mudarInfo(opcao) {
 
     else if (opcao === 2) {
         titulo.innerText = 'Quais são os diferentes meios?';
-        paragrafo.innerText = "Cultivo em Substrato." 
-"Hidroponia."
-"Aquaponia."
-"Agricultura Vertical."
-"Agrofloresta.";
+        paragrafo.innerText = "Cultivo em Substrato. Hidroponia. Aquaponia. Agricultura Vertical. Agrofloresta.";
     } 
 
     else if (opcao === 3) {
