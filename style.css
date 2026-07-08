@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
-    background-color: #d7ae8a;
+    background-color: #c59871;
     color: #dc3128;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -18,7 +18,7 @@ h1, h2 {
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
-    background-color:#d3a37c;
+    background-color:#c7a78c;
     white-space: pre-line;
 }
 
