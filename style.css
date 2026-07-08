@@ -71,7 +71,7 @@ body.dark-mode {
 body.dark-mode .btn-info, body.dark-mode .btn-modo {
     border-color: #d7ae8a;
     background-color: #dc3128;
-    color: #d7ae8a;
+    color: #9b7350;
 }
 
 body.dark-mode .btn-info:hover, body.dark-mode .btn-modo:hover {
