@@ -61,11 +61,11 @@ h1, h2 {
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
-    background-color: #d7ae8a;
+    background-color: #3a291b;
 }
 body.dark-mode {
-    background-color: #180201;
-    color: #d7ae8a; 
+    background-color: #300502;
+    color:  #d7ae8a; 
 }
 
 body.dark-mode .btn-info, body.dark-mode .btn-modo {
